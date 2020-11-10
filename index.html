@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<head>
+    <title>CV</title>
+    <link rel="icon" href="images/usericon.png">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/media-queries.css">
+    <link rel="stylesheet"
+          href='https://fonts.googleapis.com/css?family=Lato'>
+    <script src="https://kit.fontawesome.com/13887d64b4.js" crossorigin="anonymous"></script>
+    <script src="script/config.js"></script>
+    <script src="script/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class = "background" >
+        <img class = "background" src="images/backgroundblurred.png">
+    </div>
+    <div class = "title-name">
+        <h1 id="full-name">Name </h1>
+        <h3 id="job-name">Job</h3>
+    </div>
+    <div id="profile-image" class= "profile-img-container">
+        <img class= "profile-img" src="images/profile.jpg">
+    </div>
+
+    <div id="wrapper" class = "text-content">
+        <div id="content-wrapper">
+            <div id= "top-div">
+                <div id="left-column">
+                    <div id="info-wrapper" class="section-left">
+                        <div class="header-wrapper toggler-wrapper">
+                            <h4><span>Info </span><span class="toggler">-</span></h4>
+                        </div>
+                        <div class="content-wrapper animation-duration ">
+                            <div id="info-item" class="content-item">
+                                <div class="icon-left">
+                                    <span class="icon">
+                                        <i data-class="nameIcon"></i>
+                                    </span>
+                                </div>
+                                <div class="text-wrapper">
+                                    <p data-label="name" class="label">Name</p>
+                                    <p data-value="name" class="data">Arieta Benson</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="social-wrapper" class="section-left">
+                        <div class="header-wrapper toggler-wrapper">
+                            <h4><span>Social </span><span class="toggler ">+</span></h4>
+                        </div>
+                        <div class="content-wrapper animation-duration hidden ">
+                            <div id="social-item" class="content-item">
+                                <div class="icon-left"><span  class="icon"><i data-class="skypeIcon" class=""></i></span> </div>
+                                <div class="text-wrapper">
+                                    <p data-label="skypeURL" class="label">Skype</p>
+                                    <p><a href="ref" target="_blank" data-value="skypeURL" class="data">ABenson</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="right-column">
+                    <div id="work-wrapper" class="marginb-15">
+                        <div class="header-wrapper">
+                            <h4>Work Experience</h4>
+                        </div>
+                        <div class="title-line"></div>
+                        <div class="content-wrapper flex-row">
+                            <div id="work-item" class="content-item flex-column">
+                                <div class="timespan text-left" >
+                                    <span data-value="work.start">2015</span><span>-</span><span data-value="work.end">2016</span></div>
+                                <div class="text-wrapper">
+                                    <div class="toggler-wrapper border-bottom margin-left-10">
+                                    <p data-value="work.company" class="label">DP Design Development <span class="toggler">+</span></p>
+                                    <p data-value="work.jobTitle" class="sublabel">Your first position</p>
+                                    </div>
+                                    <p data-value="work.description" class="data hidden animation-duration">sajdf;lkjasl;kfjasld;kfjals;dkjfas;lkfj</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div id="education-wrapper" class="marginb-15">
+                        <div class="header-wrapper">
+                            <h4>Education</h4>
+                        </div>
+                        <div class="title-line"></div>
+                        <div class="content-wrapper">
+                            <div id="education-item" class="content-item">
+                                <div class="timespan">
+                                    <span data-value="education.start">2015</span><span>-</span><span data-value="education.end">2016</span>
+                                </div>
+                                <div class="text-wrapper">
+                                    <p data-value="education.degree" class="label">DP Design Development</p>
+                                    <p data-value="education.school" class="sublabel">Your first position</p>
+                                    <p data-value="education.description" class="data">sajdf;lkjasl;kfjasld;kfjals;dkjfas;lkfj</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id = "center-div">
+                <div id="professional_development-wrapper" class="marginb-15">
+                    <div class="header-wrapper">
+                        <h4>Professional Development</h4>
+                    </div>
+                    <div class="title-line"></div>
+                    <div class="content-wrapper">
+                        <div id="professional_development-item" class="content-item">
+                            <div class="timespan">
+                                <span data-value="professional_development.date">2015</span>
+                            </div>
+                            <div class="text-wrapper">
+                                <p data-value="professional_development.name" class="label">DP Design Development</p>
+                                <p data-value="professional_development.description" class="sublabel">Your first position</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="certificates-wrapper" class="marginb-15">
+                    <div class="header-wrapper">
+                        <h4>Certificates</h4>
+                    </div>
+                    <div class="title-line"></div>
+                    <div class="content-wrapper">
+                        <div id="certificates-item" class="content-item">
+                            <div class="timespan">
+                                <span data-value="certificates.date">2015</span>
+                            </div>
+                            <div class="text-wrapper">
+                                <p data-value="certificates.name" class="label">DP Design Development</p>
+                                <p data-value="certificates.institution" class="sublabel">Your first position</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tools-wrapper" class="marginb-15">
+                    <div class="header-wrapper">
+                        <h4>Tools</h4>
+                    </div>
+                    <div class="title-line"></div>
+                    <div class="content-wrapper tools-content">
+                        <div id="tools-item" class="content-item">
+                            <div class="text-wrapper">
+                                <p data-value="tools.name" class="label">DP Design Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            
+            <div id="bottom-wrapper">
+                <div id="languages-wrapper" class="marginb-15">
+                    <div class="header-wrapper">
+                        <h4>Languages</h4>
+                    </div>
+                    <div class="title-line"></div>
+                    <div class="timeline-wrapper">
+                        <div id="languages-item" class="content-item">
+                            <div class="text-wrapper">
+                                <p class="label" data-value="languages.name">DP Design Development</p>
+                                <div class="progress">
+                                    <div class="fill" data-fill="langugages.percent"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skills-wrapper" class="marginb-15">
+                    <div class="header-wrapper">
+                        <h4>Skills</h4>
+                    </div>
+                    <div class="title-line"></div>
+                    <div class="content-wrapper">
+                        <div id="skills-item" class="content-item">
+                            <div class="text-wrapper">
+                                <p data-value="skills.name" class="label">DP Design Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Developed by: Milica Vojinovic, 2020</p>
+        <p>Contact: milica.vojinovic@ymail.com</p> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@media only screen and (max-width: 900px) {
+    #top-div {
+        display: block;
+    } 
+}
+
+@media only screen and (max-width: 650px) {
+
+    .body {
+        font-size: 0.7rem;
+    }
+    .content-item{
+        display: block;
+    }
+   
+    .content-wrapper {
+        display: block;
+        padding: 0;
+    }
+
+    #left-column .content-item{
+        display: flex;
+    }
+
+    .tools-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #bottom-wrapper {
+        display: block;
+    }
+
+    .profile-img {
+        width: 200px;  
+    }
+
+    .text-content {
+        margin: -110px 0 0 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .title-name {
+        margin-top: calc(100vh - 550px);
+        font-size: 1.3rem;
+    }
+
+    .label {
+        font-size: 18px;
+    }
+
+    .sublabel {
+        font-size: 18px;
+    }
+
+    .data {
+        font-size: 16px;
+    }
+
+    #right-column {
+        padding: 0px;
+    }
+
+    .marginb-15 {
+        padding: 30px;
+        margin-bottom: 0px;
+    }
+
+    #professional_development-wrapper .content-wrapper {
+        padding-left: 0px;
+    }
+
+    #skills-wrapper{
+        margin-left: 0px;
+    }
+}
